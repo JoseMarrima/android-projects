@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#00838F</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    //background color for my Numbers category
+    <color name="numbers_category">#2196F3</color>
+
+    //background color for my family category
+    <color name="family_category">#01579B</color>
+
+    //background color for my family category
+    <color name="colors_category">#880E4F</color>
+
+    //background color for my phrases category
+    <color name="phrases_category">#4A148C</color>
+
+    //background color for my quiz category
+    <color name="quiz_category">#B71C1C</color>
+</resources>

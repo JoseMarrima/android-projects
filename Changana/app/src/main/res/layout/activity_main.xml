@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.josemarrima.changana.MainActivity">
+
+    <!-- this is numbers category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/numbers_category"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            style="@style/GeneralCategoryStyle"
+            android:layout_gravity="center"
+            android:onClick="OpenNumbersActivity">
+
+            <ImageView
+                style="@style/ChildOfEachCategoryStyle"
+                android:src="@drawable/numbers"/>
+
+            <TextView
+                style="@style/ChildOfEachCategoryStyle"
+                android:text="@string/numbers"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+    <!-- this is family members category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/family_category"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            style="@style/GeneralCategoryStyle"
+            android:layout_gravity="center"
+            android:id="@+id/family"
+            android:background="@color/family_category">
+
+            <ImageView
+                style="@style/ChildOfEachCategoryStyle"
+                android:src="@drawable/family"/>
+
+            <TextView
+                style="@style/ChildOfEachCategoryStyle"
+                android:text="@string/family_members"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+    <!-- this is colors category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/colors_category"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            style="@style/GeneralCategoryStyle"
+            android:layout_gravity="center"
+            android:id="@+id/colors"
+            android:background="@color/colors_category">
+
+            <ImageView
+                style="@style/ChildOfEachCategoryStyle"
+                android:src="@drawable/colors"/>
+
+            <TextView
+                style="@style/ChildOfEachCategoryStyle"
+                android:text="@string/colors"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+    <!-- this is phrases category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/phrases_category"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            style="@style/GeneralCategoryStyle"
+            android:layout_gravity="center"
+            android:id="@+id/phrases"
+            android:background="@color/phrases_category">
+
+            <ImageView
+                style="@style/ChildOfEachCategoryStyle"
+                android:src="@drawable/phrases"/>
+
+            <TextView
+                style="@style/ChildOfEachCategoryStyle"
+                android:text="@string/phrases"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+
+    <!-- this is quiz category -->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:background="@color/quiz_category"
+        android:layout_weight="1"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            style="@style/GeneralCategoryStyle"
+            android:layout_gravity="center"
+            android:id="@+id/quiz"
+            android:background="@color/quiz_category">
+
+            <ImageView
+                style="@style/ChildOfEachCategoryStyle"
+                android:src="@drawable/quiz"/>
+
+            <TextView
+                style="@style/ChildOfEachCategoryStyle"
+                android:text="@string/quiz"
+                android:textColor="#FFFFFF"/>
+
+        </LinearLayout>
+    </FrameLayout>
+
+
+</LinearLayout>
